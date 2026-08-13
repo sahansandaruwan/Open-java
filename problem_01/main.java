@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class main {
 
     public static void main(String[] args) {
@@ -21,11 +22,7 @@ public class main {
 
         scanner.close();
     }
-
-    /**
-     * Prompts the user for grid dimensions and populates the 2D array.
-     * Enforces that rows and columns must be at least 3.
-     */
+    
     public static int[][] readAndValidateGrid(Scanner scanner) {
         int rows = 0;
         int cols = 0;
