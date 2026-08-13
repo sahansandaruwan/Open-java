@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class main {
 
     public static void main(String[] args) {
@@ -22,6 +21,7 @@ public class main {
 
         scanner.close();
     }
+
     
     public static int[][] readAndValidateGrid(Scanner scanner) {
         int rows = 0;
