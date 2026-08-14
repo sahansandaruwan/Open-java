@@ -22,7 +22,7 @@ public class main {
         scanner.close();
     }
 
-    
+
     public static int[][] readAndValidateGrid(Scanner scanner) {
         int rows = 0;
         int cols = 0;
